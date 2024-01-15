@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello world!</title>
+  <link type="text/css" rel="stylesheet"
+        href="{{ url_for('static',
+              filename='styles.css')}}" />
+</head>
+<body>
+
+  <div id="linkContainer">
+    <a href="tolokafacecollector://start?secret_key={{key}}" target="_blank">tolokafacecollector://<br>start?secret_key=<br>{{key}}</a>
+  </div>
+</body>
+</html>
